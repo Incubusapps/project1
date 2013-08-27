@@ -1,0 +1,137 @@
+body{
+	background:#fff;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  
+}
+@media ( min-width: 40em ) {
+	/* Show the table header rows and set all cells to display: table-cell */
+	.my-custom-breakpoint td,
+	.my-custom-breakpoint th,
+	.my-custom-breakpoint tbody th,
+	.my-custom-breakpoint tbody td,
+	.my-custom-breakpoint thead td,
+	.my-custom-breakpoint thead th {
+		display: table-cell;
+		margin: 0;
+	}
+	/* Hide the labels in each cell */
+	.my-custom-breakpoint td .ui-table-cell-label,
+	.my-custom-breakpoint th .ui-table-cell-label {
+		display: none;
+	}
+}
+.customhdr{
+	background: #5f012a;
+	background: -moz-linear-gradient(left, #5f012a 0%, #f80276 100%); 
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#5f012a), color-stop(100%,#f80276));
+	background: -webkit-linear-gradient(left, #5f012a 0%,#f80276 100%); 
+	background: -o-linear-gradient(left, #5f012a 0%,#f80276 100%); 
+	background: -ms-linear-gradient(left, #5f012a 0%,#f80276 100%); 
+	background: linear-gradient(to right, #5f012a 0%,#f80276 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f012a', endColorstr='#f80276',GradientType=1 ); 
+	padding:0;
+	overflow:hidden;
+}
+.ui-header .hdrtxt{
+	text-shadow: -3px 2px 1px rgba(86, 86, 86, 1);
+	font-family:leelawadee;
+	src: url(leelawdb.ttf);
+	font-size:22px;
+	font-weight:normal;
+	margin:5px;
+}
+.customhdr .panelicon{
+	background:url(images/panel.png) no-repeat;
+	display:block;
+	opacity:1;
+	margin:0;
+	padding:0;
+	height:35px;
+	margin-top:6px;
+
+}
+.customhdr .ui-btn-inner{
+	background:none;
+	border:none;
+}
+#mypanel.ui-body-a,#mypanel  .ui-overlay-a {
+	background:url(images/bar1.gif) repeat-y;
+}
+#mypanel .ui-btn-up-e{
+	background:url(images/bar1.gif) repeat-y;
+	border-bottom:1px solid #784C5F;
+	text-shadow: 0 1px 0 #000;	
+	color:#fff;
+}
+#mypanel .ui-btn-up-e:visited, .ui-btn-up-e a.ui-link-inherit{
+	color:#fff;
+}
+#mypanel .ui-li,#mypanel .ui-li.ui-field-contain {
+	border:0;
+	border-bottom:1px solid #784C5F;
+}
+#mypanel .ui-btn-hover-e ,#mypanel .ui-btn-down-e {
+	background:url(images/bar2.jpg) repeat-y;
+	color:#fff;
+	text-shadow: 0 0 0 #000;	
+}
+#mypanel .ui-btn-hover-e:visited,
+#mypanel .ui-btn-hover-e:hover,
+#mypanel .ui-btn-hover-e a.ui-link-inherit
+ {
+	color:#fff;
+	text-shadow: 0 0 0 #000;	
+}
+.mainbody .ui-btn-up-d{
+	margin:0 10px;
+	background:none;
+	border:none;
+	border-bottom:1px solid #999999;	
+	padding:10px 0;
+}
+.mainbody .ui-btn-hover-d{
+	background: #8F4E66;
+	margin:0 10px;
+	border:none;
+	border-bottom:1px solid #999999;
+	padding:10px 0;
+}
+.mainbody h2{
+	margin-top:-10px;
+}
+.ui-btn-hover-d:visited,
+.ui-btn-hover-d:hover,
+.ui-btn-hover-d a.ui-link-inherit {
+	color: #fff ;
+	border:none;
+	text-shadow: 0 0 0 #000;	
+}
+.mainbody .ui-li-thumb{
+	border:2px solid #fff;
+}
+.slider{
+	height:200px;
+	overflow:hidden;
+	position:relative;
+}
+
+.flexslider .slides li {
+    position:relative;
+}
+.flex-caption {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(0, 0, 0,0.6);
+    z-index:1;
+    padding:5px;
+	color:#FFFFFF;
+}
+.mainbody .ui-mobile-nosupport-boxshadow .ui-link-inherit:focus {
+	outline-width: 0px;
+	outline-style: auto;
+}
